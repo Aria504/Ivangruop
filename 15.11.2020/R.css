@@ -1,0 +1,20 @@
+table {
+	border: 3px solid blue;
+	border-spacing: 2px;
+}
+td {
+	border: 7px solid gray;
+	border-radius: 4px;
+	transition: 1s ease;
+	text-align: center;
+}
+td:hover{
+	border:3px solid gray;
+	border-radius: 6px;
+	transition: 1s ease;
+}
+
+td:nth-child(3){
+	background-color: yellow;
+}
+
